@@ -28,3 +28,5 @@ I’m happy to get feedback or help from other developers! Feel free to open iss
 ---
 
 Thanks for checking out Double Dare! Enjoy playing and learning.
+
+-Game by Theto Mamabolo
