@@ -29,4 +29,9 @@ I’m happy to get feedback or help from other developers! Feel free to open iss
 
 Thanks for checking out Double Dare! Enjoy playing and learning.
 
--Game by Theto Mamabolo
+---
+
+## 👨‍💻 About the Creator
+Made by Theto Mamabolo  
+- [Coursera Certificate – Python for Everybody](https://coursera.org/share/8dc33dcf5fa7cdef38fcba7a9bb42778)
+
