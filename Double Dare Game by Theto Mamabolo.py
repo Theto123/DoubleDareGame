@@ -4,10 +4,32 @@ import time
 print('Welcome to Double Dare!'.upper())
 print()
 
-player1_name = input('Player1, enter your name:\n ')
-print()
-player2_name = input('Player2, enter your name:\n ')
-print()
+while True:
+    player1_name = input('Player1, enter your name:\n ')
+    if len(player1_name) == 0:
+        print('Name not entered. Try again.')
+        print()
+        continue
+    else:
+        print()
+        break
+
+while True:
+    player2_name = input('Player2, enter your name:\n ')
+    if len(player2_name) == 0:
+        print('Name not entered. Try again.')
+        print()
+        continue
+
+    elif player2_name.upper() == player1_name.upper():
+        player2_name += '2'
+        print(f'\nPlayer 2\'s name has been modified to {player2_name} due to name match')
+        print()
+        break
+
+    else:
+        print()
+        break
 
 mode = {1: 'Easy', 2 : 'Medium', 3 : 'Hard'}
 
